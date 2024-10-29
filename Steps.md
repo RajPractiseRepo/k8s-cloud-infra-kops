@@ -1,5 +1,8 @@
 # KOPS BINARY INSTALLATION
+https://github.com/kubernetes/kops/releases
+
 # KUBECTL BINARY INSTALLATION
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 # Launch an Ubuntu VM on AWS
 
@@ -34,7 +37,7 @@ export NAME=cloudopswithswapnil.in \
 export KOPS_STATE_STORE=s3://cloudopswithswapnil.in \
 export AWS_REGION=us-east-1 \
 export CLUSTER_NAME=cloudopswithswapnil.in \
-export EDITOR='/usr/bin/nano' \
+export EDITOR='/usr/bin/nano' 
 
 # Create a Cluster using Kops and generate a cluster file.
 
@@ -47,9 +50,9 @@ kops create cluster --name=cloudopswithswapnil.in \
 
 # Once done run below commands to create the cluster 
 
-kops create -f cluster.yml
-kops update cluster --name cloudopswithswapnil.in --yes --admin
-kops validate cluster --wait 10m
+kops create -f cluster.yml \
+kops update cluster --name cloudopswithswapnil.in --yes --admin \
+kops validate cluster --wait 10m \
 kops delete -f cluster.yml  --yes
 
 # Note: FOR MULTI AVAILABILITY ZONE CLUSTER
