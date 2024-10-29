@@ -1,4 +1,4 @@
-# Setting Up a Kubernetes Cluster on AWS Using kops ☸🚢
+# 🚀 𝗙𝗿𝗼𝗺 𝗚𝗿𝗼𝘂𝗻𝗱 𝗨𝗽 𝘁𝗼 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗥𝗲𝗮𝗱𝘆: 𝗕𝘂𝗶𝗹𝘁 𝗮 𝗙𝘂𝗹𝗹𝘆 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗮𝗹 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗖𝗹𝘂𝘀𝘁𝗲𝗿 𝗼𝗻 𝗔𝗪𝗦 𝘄𝗶𝘁𝗵 𝗞𝗼𝗽𝘀! 🚀  ☸🚢
 ![351607330-7ca733d1-e154-4989-8079-db4e90145448](https://github.com/user-attachments/assets/8442572e-f284-45c4-ad65-878ba89034a8)
 
 • In this Project, I’ll Walk you through the steps of setting up a Kubernetes cluster on AWS using kops (Kubernetes Operations).
